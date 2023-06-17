@@ -1,0 +1,37 @@
+*{
+    margin:0;
+}
+body html{
+    height: 100%
+}
+
+.poppins-reg{
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+}
+
+.poppins-bold{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+header{
+    font-family: 'Cantarell';
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 1em;
+    color: white;
+    background-image: linear-gradient(to right, #1c72d9, #5ac2e7);
+    height: 80px; 
+}
+#search-prompt-text{
+    font-size: 26px;
+}
+#history-display{
+    font-size: 1rem;
+}
+
+#last-search-item{
+    background-color: aliceblue;
+}
