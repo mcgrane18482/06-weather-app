@@ -5,6 +5,11 @@ body html{
     height: 100%
 }
 
+body {
+    background-color: aliceblue;
+    /* background-image: linear-gradient(to bottom, #d4e3f6, white); */
+}
+
 .poppins-reg{
     font-family: 'Poppins', sans-serif;
     font-weight:400;
@@ -12,26 +17,40 @@ body html{
 
 .poppins-bold{
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.is-bold{
     font-weight: 700;
 }
 
 header{
     font-family: 'Cantarell';
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-right: 1em;
     color: white;
     background-image: linear-gradient(to right, #1c72d9, #5ac2e7);
     height: 80px; 
 }
+#header-items{
+   display: flex;
+   height: 100%;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 4em;
+}
+
 #search-prompt-text{
     font-size: 26px;
 }
+
 #history-display{
     font-size: 1rem;
 }
 
 #last-search-item{
     background-color: aliceblue;
+}
+
+.weather-card{
+    background-color: #1c72d9;
+    color: white;
 }
